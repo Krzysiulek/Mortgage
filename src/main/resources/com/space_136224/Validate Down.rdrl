@@ -1,0 +1,9 @@
+package com.space_136224;
+
+import java.lang.Number;
+
+rule "Validate Down"
+	dialect "mvel"
+	when
+	then
+end
