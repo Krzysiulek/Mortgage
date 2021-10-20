@@ -9,7 +9,7 @@ rule "Validate Down"
 		app : Application( downpayment == 0 || downpayment > app.property.saleprice )
 	then
 		ValidationErrorDO fact0 = new ValidationErrorDO();
-		fact0.setError( Down payment cannot be 0, greater than, or equal to the property sale price );
+		fact0.setError( "Down payment cannot be 0, greater than, or equal to the property sale price" );
 		insert( fact0 );
 		System.out.println("Executed rule:" + drools.getRule().getName());
 		app.setErrors( fact0 );
