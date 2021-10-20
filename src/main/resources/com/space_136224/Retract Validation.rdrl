@@ -1,0 +1,9 @@
+package com.space_136224;
+
+import java.lang.Number;
+
+rule "Retract Validation"
+	dialect "mvel"
+	when
+	then
+end
