@@ -11,7 +11,6 @@ rule "Validate Down"
 		ValidationErrorDO fact0 = new ValidationErrorDO();
 		fact0.setError( Down payment cannot be 0, greater than, or equal to the property sale price );
 		insert( fact0 );
-		// console.log("Executed rule:" + drools.getRule().getName());
-		console.log("Executed rule: XXXX");
+		System.out.println("Executed rule:" + drools.getRule().getName());
 		app.setErrors( fact0 );
 end
