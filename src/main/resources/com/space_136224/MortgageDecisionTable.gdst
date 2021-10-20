@@ -16,7 +16,7 @@
   <attributeCols>
     <attribute-column52>
       <typedDefaultValue>
-        <valueString></valueString>
+        <valueString>mortgagecalculation</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
@@ -140,8 +140,150 @@
         </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
       </childColumns>
     </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
+    <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
+      <hideColumn>false</hideColumn>
+      <width>-1</width>
+      <header>Property</header>
+      <constraintValueType>1</constraintValueType>
+      <parameters/>
+      <definition>
+        <org.drools.workbench.models.datamodel.rule.FactPattern>
+          <constraintList>
+            <constraints>
+              <org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
+                <constraintValueType>0</constraintValueType>
+                <expression>
+                  <parts/>
+                  <index>2147483647</index>
+                </expression>
+                <parameters/>
+                <factType>Application</factType>
+                <fieldName>property</fieldName>
+                <fieldType>Property</fieldType>
+              </org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
+              <org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
+                <value>$location</value>
+                <operator>==</operator>
+                <constraintValueType>7</constraintValueType>
+                <expression>
+                  <parts/>
+                  <index>2147483647</index>
+                </expression>
+                <parameters/>
+                <factType>Property</factType>
+                <fieldName>locale</fieldName>
+                <fieldType>String</fieldType>
+                <parent class="org.drools.workbench.models.datamodel.rule.SingleFieldConstraint" reference="../../org.drools.workbench.models.datamodel.rule.SingleFieldConstraint"/>
+              </org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
+              <org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
+                <value>$saleprice_less</value>
+                <operator>&lt;=</operator>
+                <constraintValueType>7</constraintValueType>
+                <expression>
+                  <parts/>
+                  <index>2147483647</index>
+                </expression>
+                <parameters/>
+                <factType>Property</factType>
+                <fieldName>saleprice</fieldName>
+                <fieldType>Integer</fieldType>
+                <parent class="org.drools.workbench.models.datamodel.rule.SingleFieldConstraint" reference="../../org.drools.workbench.models.datamodel.rule.SingleFieldConstraint"/>
+              </org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
+              <org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
+                <value>$age_less</value>
+                <operator>&lt;=</operator>
+                <constraintValueType>7</constraintValueType>
+                <expression>
+                  <parts/>
+                  <index>2147483647</index>
+                </expression>
+                <parameters/>
+                <factType>Property</factType>
+                <fieldName>age</fieldName>
+                <fieldType>Integer</fieldType>
+                <parent class="org.drools.workbench.models.datamodel.rule.SingleFieldConstraint" reference="../../org.drools.workbench.models.datamodel.rule.SingleFieldConstraint"/>
+              </org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
+            </constraints>
+          </constraintList>
+          <factType>Application</factType>
+          <boundName>app</boundName>
+          <isNegated>false</isNegated>
+          <window>
+            <parameters/>
+          </window>
+        </org.drools.workbench.models.datamodel.rule.FactPattern>
+      </definition>
+      <childColumns>
+        <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>Property</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>locale</factField>
+          <fieldType>String</fieldType>
+          <operator>==</operator>
+          <parameters/>
+          <varName>$location</varName>
+          <factType>Application</factType>
+        </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
+        <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>Property</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>saleprice</factField>
+          <fieldType>Integer</fieldType>
+          <operator>&lt;=</operator>
+          <parameters/>
+          <varName>$saleprice_less</varName>
+          <factType>Application</factType>
+        </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
+        <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
+          <typedDefaultValue>
+            <valueString></valueString>
+            <dataType>STRING</dataType>
+            <isOtherwise>false</isOtherwise>
+          </typedDefaultValue>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>Property</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>age</factField>
+          <fieldType>Integer</fieldType>
+          <operator>&lt;=</operator>
+          <parameters/>
+          <varName>$age_less</varName>
+          <factType>Application</factType>
+        </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
+      </childColumns>
+    </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
   </conditionPatterns>
-  <actionCols/>
+  <actionCols>
+    <set-field-col52>
+      <typedDefaultValue>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </typedDefaultValue>
+      <hideColumn>false</hideColumn>
+      <width>100</width>
+      <header>Mortage</header>
+      <boundName>application</boundName>
+      <factField>mortgageamount</factField>
+      <type>Integer</type>
+      <update>false</update>
+    </set-field-col52>
+  </actionCols>
   <auditLog>
     <filter class="org.drools.guvnor.client.modeldriven.dt52.auditlog.DecisionTableAuditLogFilter">
       <acceptedTypes>
@@ -176,5 +318,59 @@
   <version>739</version>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
   <hitPolicy>NONE</hitPolicy>
-  <data/>
+  <data>
+    <list>
+      <value>
+        <valueNumeric class="int">1</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>mortgage</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+  </data>
 </decision-table52>
