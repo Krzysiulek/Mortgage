@@ -21,7 +21,7 @@
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>100</width>
+      <width>239</width>
       <attribute>ruleflow-group</attribute>
       <reverseOrder>false</reverseOrder>
       <useRowNumber>false</useRowNumber>
@@ -337,8 +337,47 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>mortgage</valueString>
+        <valueString>mortgagecalculation</valueString>
         <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>9999999</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>200000</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Urban</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>500000</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>5</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="int">400000</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">2</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -352,8 +391,47 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
+        <valueString>mortgagecalculation</valueString>
         <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>9999999</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>200000</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Urban</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>500000</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>50</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="int">350000</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">3</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -367,6 +445,361 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
+        <valueString>mortgagecalculation</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>199999</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>100000</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Urban</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>300000</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>5</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="int">200000</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">4</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>mortgagecalculation</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>199999</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>100000</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Urban</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>200000</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>50</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="int">150000</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">5</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>mortgagecalculation</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>199999</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>100000</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Rural</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>200000</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>10</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="int">150000</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">6</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>mortgagecalculation</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>99999</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>50000</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Urban</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>150000</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>5</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="int">120000</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">7</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>mortgagecalculation</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>99999</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>50000</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Urban</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>120000</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>50</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="int">100000</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">8</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>mortgagecalculation</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>99999</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>50000</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Rural</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>100000</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>10</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="int">100000</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">9</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>mortgagecalculation</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>99999</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>50000</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Rural</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>100000</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>50</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="int">90000</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
